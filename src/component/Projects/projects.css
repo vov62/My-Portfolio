@@ -1,0 +1,68 @@
+#projects{
+    position: relative;
+    background-color: var(--black-bg-color);
+}
+
+#projects h2::before{
+    content: "";
+    position: absolute;
+    top:70px;
+    left: 50%;
+    width: 180px;
+    height: 2px;
+    background: var(--blue-sharp-color);
+    transform: translateX(-50%);
+}
+#projects h2::after{
+    content: "My Recent Work";
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    padding: 5px;
+    font-size: 14px;
+    background: #010101;
+    transform: translateX(-50%);
+}
+
+.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden{
+    width: 1000px;
+    height: 450px;
+    margin-top: 50px;
+    /* background-color: #ddd; */
+  }
+
+  .swiper-slide{
+    transition: 0.1s all ease-out;
+  }
+  .swiper-slide:hover{
+    transform: scale(1.05) ;
+    /* rotate(2deg) */
+  }
+
+  .projects_allItems{
+    display: flex;
+    gap: 3rem;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    color: #BCB4B4;
+    transition: .1s all ease-out;
+  }
+
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover{
+    transform: scale(1.5);
+  }
+
+
+
+  @media only screen and (max-width: 480px) {
+    .projects_allItems{
+        margin-top: 64px;
+        width: 100%;
+    }
+  .swiper-wrapper{
+    width: 350px;
+  }
+}

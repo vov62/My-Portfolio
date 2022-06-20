@@ -4,7 +4,7 @@
 #skills h2::before{
     content: "";
     position: absolute;
-    top: 110px;
+    top: 100px;
     left: 50%;
     width: 180px;
     height: 2px;
@@ -12,9 +12,9 @@
     transform: translateX(-50%);
 }
 #skills h2::after{
-    content: "always learn more";
+    content: "Always Learn More";
     position: absolute;
-    top: 95px;
+    top: 85px;
     left: 50%;
     padding: 5px;
     font-size: 14px;
@@ -24,7 +24,6 @@
 
 #skills h2{
     padding: 30px;
-    font-weight: 500;
     margin-bottom: 40px;
 }
 .skills-container{
