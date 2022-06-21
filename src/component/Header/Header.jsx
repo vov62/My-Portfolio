@@ -20,7 +20,7 @@ const Header = () => {
         </div>
 
         <div className="intro-btns">
-          <a href="#" download>
+          <a href="../../assets/Avi Vovgen CV.docx" download>
             Download CV
           </a>
           <a href="#contact">Let's Talk</a>

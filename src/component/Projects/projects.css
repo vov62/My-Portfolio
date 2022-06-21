@@ -35,7 +35,7 @@
     transition: 0.1s all ease-out;
   }
   .swiper-slide:hover{
-    transform: scale(1.05) ;
+    transform: scale(1.05);
     /* rotate(2deg) */
   }
 
@@ -54,7 +54,6 @@
   .swiper-button-next:hover{
     transform: scale(1.5);
   }
-
 
 
   @media only screen and (max-width: 480px) {

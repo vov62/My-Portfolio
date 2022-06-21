@@ -6,17 +6,14 @@ const ProjectItem = ({ title, img, desc, url }) => {
   return (
     <>
       <div className="project_img">
-        <img src={img} alt="project img" />
+        <img src={img} alt={title} />
       </div>
-
       <div className="projectItem__info">
-        <Link to="#">
-          <h3 className="projectItem__title">{title}</h3>
-        </Link>
+        <h3 className="projectItem__title">{title}</h3>
         <p className="projectItem__desc">{desc}</p>
-        <Link to={url} target="_blank">
+        <a href={url} target="_blank" rel="noopener noreferrer">
           <h4 className="projectItem_viewProject">View Project</h4>
-        </Link>
+        </a>
       </div>
     </>
   );
