@@ -1,14 +1,24 @@
 import React from "react";
 import Typed from "react-typed";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 import "./header.css";
 
 const Header = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <header id="header">
       <div className="intro container-intro">
         <div className="logo">A-v</div>
-        <h2 className="intro-h2">Hi, My name is</h2>
-        <h1 className="intro-name"> Avi Vovgen</h1>
+        <h2 className="intro-h2" style={{ color: darkMode && "#5E454B" }}>
+          Hi, My name is
+        </h2>
+        <h1 className="intro-name" style={{ color: darkMode && "#5E454B" }}>
+          {" "}
+          Avi Vovgen
+        </h1>
         <div className="intro-title">
           <Typed
             strings={["Fullstack Web Developer", "Passionate Programmer"]}

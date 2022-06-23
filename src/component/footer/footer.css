@@ -18,9 +18,12 @@ footer{
     border: 1px solid transparent;
     background-color: var( --black-bg-color);
 }
-.footer-copyright small{
-    margin-bottom: 4rem;
+.footer-copyright p{
+    margin-bottom: 5rem;
     color: #000;
+}
+.footer-copyright p{
+    font-size: 16px;
 }
 
 
@@ -28,13 +31,8 @@ footer{
 
     footer{
         margin-top: 18rem;
-        height: 20vh;
+        height: 28vh;
 
     }
-    /* .footer-socials{
-        flex-direction: column;
-        gap: 1.5rem;
-
-    } */
 }
   
