@@ -92,5 +92,13 @@
     .skills-container{
         gap: 16px;
     }
-   
+    #skills h2{
+        padding: 0;
+    }
+    #skills h2::before{
+        top: 70px;
+    }
+    #skills h2::after{
+        top: 55px;
+    }
 }

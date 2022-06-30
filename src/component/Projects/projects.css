@@ -20,7 +20,7 @@
     left: 50%;
     padding: 5px;
     font-size: 14px;
-    background: #010101;
+    background: var(--black-bg-color);
     transform: translateX(-50%);
 }
 
@@ -64,4 +64,15 @@
   .swiper-wrapper{
     width: 350px;
   }
+  #projects h2{
+    padding-top: 20px;
+    /* margin-bottom: 40px; */
+  }
+  #projects h2::before{
+    top: 95px;
+  }
+  #projects h2::after{
+    top: 80px;
+  }
+
 }
