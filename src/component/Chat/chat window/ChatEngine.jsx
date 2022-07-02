@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { ChatEngineWrapper, Socket, ChatFeed } from "react-chat-engine";
 import "./chatEngine.css";
 

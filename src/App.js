@@ -9,6 +9,7 @@ import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer'
 import { BrowserRouter as Router, } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
+import Chat from './component/Chat/index';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Skills />
         <Projects />
         <Contact />
+        <Chat />
         <Footer />
         <Toaster />
       </Router>
