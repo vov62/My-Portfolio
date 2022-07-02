@@ -1,9 +1,8 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Navigation, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import { Navigation } from "swiper";
+import "swiper/swiper.min.css";
+import "swiper/swiper-bundle.min.css";
 import projects from "../../assets/projectsData/data";
 import ProjectItem from "./ProjectItem";
 import "./projects.css";
@@ -17,10 +16,6 @@ const Projects = () => {
         <Swiper
           spaceBetween={30}
           slidesPerView={1}
-          // autoplay={{
-          //   delay: 4000,
-          //   disableOnInteraction: false,
-          // }}
           loop={true}
           navigation={true}
           modules={[Navigation]}

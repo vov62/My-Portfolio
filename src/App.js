@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Header from './component/Header/Header';
 import Nav from './component/Nav/Nav';
@@ -8,7 +9,7 @@ import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer'
 import { BrowserRouter as Router, } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
-import Chat from './component/Chat/index';
+// import Chat from './component/Chat/index';
 
 
 function App() {

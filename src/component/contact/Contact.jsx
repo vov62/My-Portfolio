@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp, BsGithub } from "react-icons/bs";
 import emailjs from "emailjs-com";
@@ -44,7 +44,7 @@ const Contact = () => {
             <a
               href="mailto:avivovgen1@gmail.com"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Send a message
             </a>
@@ -56,7 +56,7 @@ const Contact = () => {
             <a
               href="https://api.WhatsApp.com/send?phone=+972525213250"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Message Me
             </a>
@@ -65,7 +65,11 @@ const Contact = () => {
             <BsGithub className="contact-option-icon" />
             <h4>Github</h4>
             <h5>view</h5>
-            <a href="https://github.com/vov62" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/vov62"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Visit Github
             </a>
           </article>

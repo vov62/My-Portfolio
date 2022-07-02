@@ -1,11 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import {
-  ScrollContainer,
-  ScrollPage,
-  Animator,
-  MoveIn,
-} from "react-scroll-motion";
+import { ScrollContainer, ScrollPage } from "react-scroll-motion";
 import "./header.css";
 
 const Header = () => {

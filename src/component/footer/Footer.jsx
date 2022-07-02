@@ -11,17 +11,21 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/avi-vovgen-0b7119200/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <AiFillLinkedin />
         </a>
-        <a href="https://github.com/vov62" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/vov62"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsGithub />
         </a>
         <a
           href="https://www.facebook.com/avi.vovgen/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <AiFillFacebook />
         </a>
