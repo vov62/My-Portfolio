@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import SupportAdmin from './component/SupportAdmin/index';
+// import SupportAdmin from './component/SupportAdmin/index';
 
 
 
@@ -10,7 +10,8 @@ const path = window.location.pathname;
 
 root.render(
   <React.StrictMode>
-    {path.indexOf('/support') === -1 ? <App /> : <SupportAdmin />}
+    {/* {path.indexOf('/support') === -1 ? <App /> : <SupportAdmin />} */}
+    <App />
   </React.StrictMode>
 );
 
