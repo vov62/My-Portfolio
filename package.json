@@ -20,6 +20,7 @@
     "react-scroll-motion": "^0.3.0",
     "react-spinners": "^0.13.1",
     "react-typed": "^1.2.0",
+    "shell-quote": "^1.7.3",
     "swiper": "^8.2.6",
     "web-vitals": "^2.1.4"
   },
