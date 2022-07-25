@@ -13,5 +13,16 @@
     overflow: hidden;
     box-Shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.33);
     transition: 0.5s all ease;
-z-index: 999;
+    z-index: 999;
 }
+
+
+@media screen and (max-width:480px) {
+    .chat-window{
+        width: 250px;
+        height: 300px;
+      
+    }
+   
+       
+    }

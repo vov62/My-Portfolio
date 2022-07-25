@@ -6,12 +6,12 @@ import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const path = window.location.pathname;
+// const path = window.location.pathname;
 
 root.render(
-  <React.StrictMode>
+  <>
     {/* {path.indexOf('/support') === -1 ? <App /> : <SupportAdmin />} */}
     <App />
-  </React.StrictMode>
+  </>
 );
 

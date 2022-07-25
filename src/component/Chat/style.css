@@ -2,6 +2,7 @@
     position: fixed; 
     right: 24px; 
     bottom: 24px;
+    z-index: 999;
 }
 .avatar{
     cursor: pointer;
@@ -26,3 +27,16 @@
     color: black;
     transition: 0.4s all ease;
 }
+
+
+@media screen and (max-width:480px) {
+    .avatar-container{
+        right: 15px;
+        bottom: 100px;
+    }
+    .avatar{
+        height: 70px;
+        width: 70px;
+         }
+       
+    }

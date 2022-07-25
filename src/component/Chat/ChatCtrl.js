@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import Avatar from './Avatar';
-import ChatWindow from './chat window/ChatWindow';
+import ChatWindow from './chatWindow/ChatWindow.jsx';
 
 
-const SupportEngine = () => {
+const ChatCtrl = () => {
     const ref = useRef(null);
     const [visible, setVisible] = useState(false);
 
@@ -32,5 +32,5 @@ const SupportEngine = () => {
     )
 }
 
-export default SupportEngine;
+export default ChatCtrl;
 
