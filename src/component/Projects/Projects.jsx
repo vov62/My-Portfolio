@@ -12,7 +12,7 @@ const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
 
-      <div className="projects_allItems">
+      {/* <div className="projects_allItems">
         <Swiper
           spaceBetween={30}
           slidesPerView={1}
@@ -44,6 +44,25 @@ const Projects = () => {
             );
           })}
         </Swiper>
+      </div> */}
+
+      {/* experiment */}
+      <div
+        className="projects_allItems"
+        style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)" }}
+      >
+        <>
+          {projects.map((project, i) => {
+            return (
+              <ProjectItem
+                title={project.name}
+                img={project.img}
+                desc={project.description}
+                url={project.url}
+              />
+            );
+          })}
+        </>
       </div>
     </section>
   );
