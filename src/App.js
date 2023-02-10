@@ -1,16 +1,15 @@
 import React from "react";
-import "./App.css";
 import Header from "./component/Header/Header";
 import Nav from "./component/Nav/Nav";
 import About from "./component/About/About";
 import Skills from "./component/Skills/Skills";
-import Projects from "./component/Projects/Projects";
 import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 // import ChatCtrl from './component/Chat/ChatCtrl';
-import Projects2 from "./component/Projects2/Projects2";
+import Projects from "./component/Projects/Projects";
+import "./App.css";
 
 function App() {
   return (
@@ -20,8 +19,7 @@ function App() {
         <Nav />
         <About />
         <Skills />
-        {/* <Projects /> */}
-        <Projects2 />
+        <Projects />
         <Contact />
         {/* <ChatCtrl /> */}
         <Footer />
