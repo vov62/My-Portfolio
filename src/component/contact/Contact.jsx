@@ -37,42 +37,40 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <div className="container contact-container">
         <div className="contact-options">
-          <article className="contact-option">
+          <a
+            href="mailto:avivovgen1@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-option"
+          >
             <MdOutlineEmail className="contact-option-icon" />
             <h4>Email</h4>
-            <h5>avivovgen1@gmail.com</h5>
-            <a
-              href="mailto:avivovgen1@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Send a message
-            </a>
-          </article>
-          <article className="contact-option">
+            <h5>avivovgen1@gmail.com</h5> Send a message
+          </a>
+
+          <a
+            href="https://api.WhatsApp.com/send?phone=+972525213250"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-option"
+          >
             <BsWhatsapp className="contact-option-icon" />
             <h4>WhatsApp</h4>
             <h5>*123456789</h5>
-            <a
-              href="https://api.WhatsApp.com/send?phone=+972525213250"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Message Me
-            </a>
-          </article>
-          <article className="contact-option">
+            Message Me
+          </a>
+
+          <a
+            href="https://github.com/vov62"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-option"
+          >
             <BsGithub className="contact-option-icon" />
             <h4>Github</h4>
             <h5>view</h5>
-            <a
-              href="https://github.com/vov62"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit Github
-            </a>
-          </article>
+            Visit Github
+          </a>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>

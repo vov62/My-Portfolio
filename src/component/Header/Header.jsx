@@ -23,9 +23,13 @@ const Header = () => {
             </div>
 
             <div className="intro-btns">
-              <a href="../../assets/Avi Vovgen CV.docx" download>
+              <a
+                href="../../assets/‏‏‏‏Avi Vovgen - Fullstack Developer -CV.docx"
+                download
+              >
                 Download CV
               </a>
+
               <a href="#contact">Let's Talk</a>
             </div>
           </div>

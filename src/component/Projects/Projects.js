@@ -10,13 +10,14 @@ const Projects = () => {
 
       <div className="projects_allItems">
         <>
-          {projectsData.map((project, i) => {
+          {projectsData.map((project, idx) => {
             return (
               <ProjectItem
                 title={project.name}
                 img={project.img}
                 desc={project.description}
                 url={project.url}
+                key={idx}
               />
             );
           })}

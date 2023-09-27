@@ -7,7 +7,7 @@ import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-// import ChatCtrl from './component/Chat/ChatCtrl';
+// import ChatCtrl from "./component/Chat/ChatCtrl";
 import Projects from "./component/Projects/Projects";
 import "./App.css";
 

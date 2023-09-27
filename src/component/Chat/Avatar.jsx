@@ -8,7 +8,7 @@ const Avatar = ({ onClick }) => {
   return (
     <div className="avatar-container">
       <div className="avatar-p" style={{ opacity: hovered ? "1" : "0" }}>
-        Hi, i'ts Avi!
+        Hi, it's Avi!
       </div>
 
       <div
