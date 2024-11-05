@@ -5,6 +5,7 @@ import movies from "../../images/movies.png";
 import git from "../../images/git3.png";
 import todo from "../../images/todo3.png";
 import weather from "../../images/weather.png";
+import pokemon from "../../images/pokemon aws.png";
 
 const projects = [
   {
@@ -12,15 +13,18 @@ const projects = [
     name: "Pokemon app",
     description:
       "terminal-based application using Python Boto3, AWS infrastructure with Terraform and DynamoDB as the database",
-    img: "",
+    img: pokemon,
     url: "https://github.com/vov62/PokeApi-Project-Python-AWS-DynamoaDB-Terraform",
+    github:
+      "https://github.com/vov62/PokeApi-Project-Python-AWS-DynamoaDB-Terraform",
   },
   {
     id: 2,
     name: "weather",
     description: "Weather spp, Search for city forecast and next 5 days ",
     img: weather,
-    url: "https://github.com/vov62/ToDo-app",
+    url: "https://weather-app-avivovgen.netlify.app/",
+    github: "https://github.com/vov62/Avi-Vovgen-Abra-Weather-app",
   },
 
   {
@@ -29,6 +33,7 @@ const projects = [
     description: "Frontend Project for Real Estate Agency called 'Forest Group",
     img: forest,
     url: "https://forest-group-estate.netlify.app/",
+    github: "https://github.com/vov62/Forest-Group-app",
   },
   {
     id: 4,
@@ -37,6 +42,7 @@ const projects = [
       "Vinyl records E-commerce app, search for your favorite vinyl record",
     img: VovRecords,
     url: "https://vov-records.netlify.app/",
+    github: "https://github.com/vov62/frontend-vinylstore-project",
   },
   {
     id: 5,
@@ -45,6 +51,7 @@ const projects = [
       "MERN-workout-tracker-app,This app allows users to register and track their gym workouts",
     img: workout,
     url: "https://vov-workout-app.herokuapp.com/login",
+    github: "https://github.com/vov62/MERN-workout-app",
   },
   {
     id: 6,
@@ -52,6 +59,7 @@ const projects = [
     description: "Movies app, search for your favorite movie.",
     img: movies,
     url: "https://github.com/vov62/React-Movies-App",
+    github: "https://github.com/vov62/React-Movies-App",
   },
   {
     id: 7,
@@ -60,6 +68,7 @@ const projects = [
       "Github users app, find any user on github and explore his repos",
     img: git,
     url: "https://github.com/vov62/github-front-project",
+    github: "https://github.com/vov62/github-front-project",
   },
   {
     id: 8,
@@ -67,6 +76,7 @@ const projects = [
     description: "Todo crud app, read, create, delete and update your task",
     img: todo,
     url: "https://github.com/vov62/ToDo-app",
+    github: "https://github.com/vov62/ToDo-app",
   },
 ];
 

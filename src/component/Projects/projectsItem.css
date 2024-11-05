@@ -2,6 +2,8 @@
     width: 270px;
     border: 2px solid var(--blue-sharp-color);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project_img {
@@ -16,9 +18,11 @@
 }
 
 .projectItem__info {
-    margin-top: 0.5rem;
-    padding: 1rem;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 50%;
+    padding: 10px;
 }
 
 .projectItem__title {
@@ -34,15 +38,24 @@
     text-transform: capitalize;
 }
 
+.projectItem_links {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 .projectItem_viewProject {
     background-color: #363636;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2px;
+    padding: 2px 8px;
     margin-top: 6px;
     color: var(--red-sharp-color);
+    border-radius: 10px;
 }
 
 .projectItem_viewProject:hover {

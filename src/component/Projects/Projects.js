@@ -17,6 +17,7 @@ const Projects = () => {
                 img={project.img}
                 desc={project.description}
                 url={project.url}
+                github={project.github}
                 key={idx}
               />
             );
